@@ -65,10 +65,10 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function     format            argument */
-        { cpu_freq,     " : %sHz, ",      NULL },
+        { cpu_freq,     " CPU: %sHz, ",      NULL },
         { cpu_perc,     "%s%% | ", NULL },
-        { ram_perc,     ":: %s%% | ", NULL },
-        { netspeed_tx,  ":: %s | ", "enp4s0" },
+        { ram_perc,     "RAM: %s%% | ", NULL },
+        { netspeed_tx,  "LAN: %s | ", "enp4s0" },
         { datetime,     "%s", "%e %b %k:%M"},
 };
 
